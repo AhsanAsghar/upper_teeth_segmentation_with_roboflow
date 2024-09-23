@@ -48,9 +48,9 @@ def detect_upper_teeth():
 
     original_stdout = sys.stdout
     sys.stdout = DummyFile()
-    rf = Roboflow(api_key="CDxrYtIlfwTupxOwIJDJ")
-    project = rf.workspace().project("segmentation-upper-teeth2")
-    model = project.version("2").model
+    rf = Roboflow(api_key="")
+    project = rf.workspace().project("")
+    model = project.version("").model
     sys.stdout = original_stdout
 
     response = model.predict(temp_image_path, confidence=24)
