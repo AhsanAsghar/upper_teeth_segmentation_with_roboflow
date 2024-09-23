@@ -1,7 +1,7 @@
-This repository focuses on tooth numbering for lower teeth images using a model trained via Roboflow. It enables users to predict tooth numbers and generate instance masks for each tooth.
+This repository focuses on tooth numbering for upper teeth images using a model trained via Roboflow. It enables users to predict tooth numbers and generate instance masks for each tooth.
 
 Key Features:
-Dataset Preparation: Start by preparing and annotating your dataset for lower teeth segmentation. Upload your dataset to Roboflow and label each tooth with accurate segmentation masks.
+Dataset Preparation: Start by preparing and annotating your dataset for upper teeth segmentation. Upload your dataset to Roboflow and label each tooth with accurate segmentation masks.
 
 Model Training: Roboflow’s AutoML solution can be used to train an instance segmentation model on your custom dataset. Once trained, the code in this repository allows you to integrate seamlessly with your Roboflow account to perform inference on custom images.
 
@@ -11,4 +11,5 @@ Major Benefits:
 Accurate Tooth Numbering: According to CDI (Complete Dental Index) standards, this repository ensures that tooth numbers are correctly detected. It automatically corrects instances where the model may assign incorrect tooth numbers, significantly reducing false positives. Even if the model predicts an incorrect tooth number, the code can autonomously correct it.
 
 Results:
-![Uploading 01UPrediction.jpg…]()
+
+![01UPrediction](https://github.com/user-attachments/assets/52a8ce11-f899-4a47-8517-1620e2cb47d1)
